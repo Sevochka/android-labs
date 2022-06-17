@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/button_b"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:text="@string/button_bold_content"
+                android:textOff="@string/button_bold_content"
+                android:textOn="@string/button_bold_content"
+                tools:text="@string/button_bold_content" />
+
+            <ToggleButton
+                android:id="@+id/button_i"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:layout_weight="1"
+                android:text="@string/button_bold_content"
+                android:textOff="@string/button_italic_content"
+                android:textOn="@string/button_italic_content"
+                tools:text="@string/button_bold_content" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="@string/text_size" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:textAlignment="center"
+                tools:text="0" />
+
+            <Button
+                android:id="@+id/button_plus"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/button_plus_text" />
+
+            <Button
+                android:id="@+id/button_minus"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="@string/button_minus_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:baselineAligned="false"
+                android:checkedButton="@id/button_sans"
+                android:layoutDirection="inherit"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/button_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/radio_sans_serif" />
+
+                <RadioButton
+                    android:id="@+id/button_serif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_serif" />
+
+                <RadioButton
+                    android:id="@+id/button_monospace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_monospace" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clipToPadding="false"
+            android:dividerPadding="0dp"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <ImageButton
+                android:id="@+id/red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/red"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/red" />
+
+            <ImageButton
+                android:id="@+id/blue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/blue"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/blue" />
+
+            <ImageButton
+                android:id="@+id/green"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/green"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/green" />
+
+            <ImageButton
+                android:id="@+id/cyan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/cyan"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/cyan" />
+
+            <ImageButton
+                android:id="@+id/magenta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/pink"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/magenta" />
+
+            <ImageButton
+                android:id="@+id/yellow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/yellow"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/yellow" />
+
+            <ImageButton
+                android:id="@+id/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/black"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="@color/black" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:selectAllOnFocus="true"
+            android:text="Форматируемый текст"
+            android:textAlignment="center" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

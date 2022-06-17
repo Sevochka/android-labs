@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">lab_rab_1</string>
+    <string name="button_bold_content">B</string>
+    <string name="button_italic_content">I</string>
+    <string name="text_size">TextSize:</string>
+    <string name="button_plus_text">+</string>
+    <string name="button_minus_text">-</string>
+
+    <string name="radio_sans_serif">SansSerif</string>
+    <string name="radio_serif">Serif</string>
+    <string name="radio_monospace">MonoSpace</string>
+
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="cyan">cyan</string>
+    <string name="pink">pink</string>
+    <string name="yellow">yellow</string>
+    <string name="black">black</string>
+</resources>

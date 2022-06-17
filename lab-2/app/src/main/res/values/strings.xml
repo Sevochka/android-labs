@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="text">Hello world!</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="color">Color</string>
+    <string name="exit">Exit</string>
+    <string name="create_text">Create TextView</string>
+    <string name="text_view_text">
+        Hello world, I\'ve been created dynamically by Seva Kochnev ^_^. If you change language to Russian, I also change my content!
+    </string>
+    <string name="alert_title">
+        Hello, World! I\'m alert dialog.
+    </string>
+    <string name="alert_content">
+        Change to Russian to see a secret message! (tell no one)
+    </string>
+    <string name="alert">
+        Display an alert dialog!
+    </string>
+</resources>

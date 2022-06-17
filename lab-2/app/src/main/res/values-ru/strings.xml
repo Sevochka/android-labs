@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ресурсы</string>
+    <string name="text">Привет, мир!</string>
+    <string name="red">Красный</string>
+    <string name="green">Зелёный</string>
+    <string name="blue">Синий</string>
+    <string name="color">Цвет</string>
+    <string name="exit">Выход</string>
+    <string name="create_text">Создать ТекстВью</string>
+    <string name="text_view_text">
+        Ух ты, а вот и я, но теперь на русском языке! Разве не классно?
+    </string>
+    <string name="alert_title">
+        Привет, мир! Я диалог, ку-ку!
+    </string>
+    <string name="alert_content">
+        Никаких секретов нет!
+    </string>
+    <string name="alert">
+        Вызвать Alert
+    </string>
+</resources>

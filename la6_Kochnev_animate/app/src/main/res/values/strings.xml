@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">la6_Kochnev_animate</string>
+    <string name="alpha">Alpha</string>
+    <string name="scale">Scale</string>
+    <string name="translate">Translate</string>
+    <string name="rotate">Rotate</string>
+    <string name="total">Total</string>
+</resources>

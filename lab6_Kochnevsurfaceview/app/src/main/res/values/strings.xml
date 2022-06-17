@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab6_Kochnev-surface-view</string>
+    <string name="menu_line">Line</string>
+    <string name="menu_circle">Circle</string>
+    <string name="menu_oval">Oval</string>
+    <string name="menu_rect">Rectangle</string>
+    <string name="menu_round_react">Round Rectangle</string>
+    <string name="menu_path">Path</string>
+    <string name="menu_arc">Arc</string>
+</resources>
